@@ -163,6 +163,8 @@ p {
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal {
@@ -212,4 +214,9 @@ p {
   left: 48%;
   right: 48%;
   cursor: pointer;
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
 }
