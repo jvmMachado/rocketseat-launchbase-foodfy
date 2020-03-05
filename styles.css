@@ -87,6 +87,7 @@ header .logo img {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: space-between;
   gap: 20px;
+  row-gap: 30px;
 }
 
 .card {
@@ -111,7 +112,6 @@ header .logo img {
   color: #777;
   font-size: 14px;
   line-height: 16px;
-  margin-bottom: 30px;
 }
 
 footer {
@@ -147,4 +147,10 @@ p {
   color: #444444;
   line-height: 28px;
   margin-top: 20px;
+}
+
+/* RECIPES */
+
+.recipes-section.recipes-page {
+  margin-top: 50px;
 }
