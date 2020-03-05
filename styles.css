@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 * {
   margin: 0;
@@ -7,9 +7,10 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-.container {
+.container,
+.about {
   max-width: 940px;
   margin: 0 auto 40px;
 }
@@ -36,6 +37,10 @@ header .logo img {
   text-decoration: none;
   color: black;
   margin-right: 2.1%;
+}
+
+.active {
+  font-weight: bold;
 }
 
 .center-wrapper {
@@ -117,4 +122,29 @@ footer {
   color: #999;
   margin: 0;
   background: #eee;
+}
+
+/* ABOUT */
+
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #111111;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #111111;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+  margin-top: 20px;
 }
