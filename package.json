@@ -1,0 +1,25 @@
+{
+  "name": "rocketseat-launchbase-foodfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvmMachado/rocketseat-launchbase-foodfy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvmMachado/rocketseat-launchbase-foodfy/issues"
+  },
+  "homepage": "https://github.com/jvmMachado/rocketseat-launchbase-foodfy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  }
+}

@@ -23,9 +23,6 @@ for (let card of cards) {
   card.addEventListener('click', () => {
     window.location = `/recipe/${recipeId}`;
   });
-  
-
-
 
   // card.addEventListener('click', () => {
   //   showModal(modalImage, modalTitle, modalAuthor);
@@ -39,3 +36,16 @@ for (let card of cards) {
 //     hideModal();
 //   }
 // });
+
+var buttons = document.querySelectorAll('.button-hide');
+
+buttons.forEach(button => {
+  button.addEventListener('click', e => {
+    e.target.nextElementSibling.classList.toggle('hide');
+    if (e.target.innerHTML == 'ESCONDER') {
+      e.target.innerHTML = 'MOSTRAR';
+    } else {
+      e.target.innerHTML = 'ESCONDER';
+    }
+  });
+});

@@ -97,6 +97,7 @@ header .logo img {
 .card img {
   width: 100%;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .card h3 {
@@ -155,7 +156,54 @@ p {
   margin-top: 50px;
 }
 
-/*  MODAL  */
+/* RECIPE PAGE */
+.recipe-image {
+  margin-top: 56px;
+  border-radius: 15px;
+}
+
+.recipe-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 36px;
+  color: #111111;
+}
+
+.recipe-author {
+  margin-top: 4px;
+  text-align: center;
+  font-size: 20px;
+  color: #777777;
+}
+
+h2.recipe-infos {
+  display: inline;
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin-bottom: -47px;
+}
+
+.recipe-info-to-hide {
+  transition: all 200ms;
+  margin-bottom: 47px;
+  margin-top: 20px;
+}
+
+.button-hide {
+  cursor: pointer;
+  line-height: 26px;
+  border-radius: 5px;
+  width: 90px;
+  margin-left: 10px;
+}
+
+/* MODAL 
 
 .modal-overlay {
   width: 100%;
@@ -219,4 +267,4 @@ p {
 .modal-active {
   opacity: 1;
   visibility: visible;
-}
+} */
